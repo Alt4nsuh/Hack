@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="bot.css" />
+    <style>
+    .button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 6px 14px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+      border-radius: 6px;
+      border: none;
+      color: #fff;
+      /* background: linear-gradient(180deg, #4599D8 0%, #4599D8 100%); */
+      background-origin: border-box;
+      box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div><form class="laive">
+      <button class="button" type ="submit" formaction="http://localhost:8080/main/index.php">
+          Гарах
+      </button>
+  </form>
+  </div>
+    <div id="chat-window">
+      <div class="main-title">Hi? Жаахан чатлах уу? </div>
+      <div id="chat-messages"></div>
+      <form id="chat-form">
+        <input
+          type="text"
+          id="chat-input"
+          autocomplete="off"
+          placeholder="Та энд бичнэ үү"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
