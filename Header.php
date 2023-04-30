@@ -120,7 +120,7 @@
                 <li><a href="#" class="logo"><img src = "logo_demo.png" alt=""><span class="nav-item">Хоол домч</span> </a></li>
                 <li><a href = "http://127.0.0.1:5501/chatbot/bot.html"><i class="fas fa-comment"></i> <span class="nav-item"> Чатбот </span> </a></li>
                 <li><a href = 'index.php'> <i class='fas fa-utensils'></i><span class='nav-item'> Хооллолт </span></a></li>
-                <li><a href = "localhost:8501"> <i class="fas fa-apple-whole"><img src="fruit.png" alt="apple on the moon" width="25" height="25"></i><span class="nav-item"> Жимс </span></a></li>";
+                <li><a href = "http://localhost:8501"> <i class="fas fa-apple-whole"><img src="fruit.png" alt="apple on the moon" width="25" height="25"></i><span class="nav-item"> Жимс </span></a></li>";
                 <?php
                 if(isset($_SESSION["cus_id"])){
                echo "<li><a href = 'contact1.php'><i class='fas fa-user'></i><span class='nav-item'> Хэрэглэгч </span> </a></li>";
